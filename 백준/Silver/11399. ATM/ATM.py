@@ -1,10 +1,10 @@
 N = int(input())
-P = list(map(int,input().split()))
-P.sort()
-count = 0
-ans = 0
+T = list(map(int,input().split()))
+T.sort()
+뚱이 = 0
+똥이 = 0
 for i in range(N):
-    count += P[i]
-    ans += count
-print(ans)
-
+    뚱이 += T[i]
+    똥이 += 뚱이
+print(똥이)
+    
