@@ -163,3 +163,14 @@ A[  start : end :  step(1) ]
 A = "Hello” 
 print(A[  :  : -1]
 
+2024/11/15
+그중에서도 c[I] 말이다. C안에 i 만큼 보인다.
+C안에 I가 있다는 것은 C라는 리스트 안에 I 만큼 있다는 소리다.
+c = int(input())
+for i in range(c):
+	C ...
+스트링 활용법
+X[Y]
+x라는 리스트에 Y만큼 빼놓아서 읽는다.
+"H" in "Hello"
+"Hello" 안에 "H"가 있는지 체크하는 것임
