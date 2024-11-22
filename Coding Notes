@@ -174,3 +174,12 @@ X[Y]
 x라는 리스트에 Y만큼 빼놓아서 읽는다.
 "H" in "Hello"
 "Hello" 안에 "H"가 있는지 체크하는 것임
+2024/11/22
+main topic = sorted and sort
+sorted는 입력받은 것을 리턴해주는 거
+sort는 바로바로 답장해주는거
+main topic2 = x in y
+예시 d in death o
+번역(1) -> d가 death안에 있습니까?
+예시(2) Hello in H x
+번역(2) -> h안에 hello가 있습니까?
