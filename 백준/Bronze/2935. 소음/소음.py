@@ -1,8 +1,7 @@
 A = int(input())
-S = input()
+C = input()
 B = int(input())
-if S == "*":
-    X = A*B
+if C == "+":
+    print(A+B)
 else:
-    X = A+B
-print(X)
+    print(A*B)
