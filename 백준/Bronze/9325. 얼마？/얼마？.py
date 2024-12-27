@@ -1,12 +1,12 @@
 A = int(input())
-W = 0
+귀여미 = 0
 for i in range(A):
     s = int(input())
     n = int(input())
-    W = s
+    귀여미 = s
     for z in range(n):
         q,p = map(int,input().split())
-        W += q * p
-    print(W)
+        귀여미 += q * p
+    print(귀여미)
         
 
