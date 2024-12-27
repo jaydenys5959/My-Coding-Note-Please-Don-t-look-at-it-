@@ -1,12 +1,11 @@
-A = int(input())
-귀여미 = 0
-for i in range(A):
-    s = int(input())
-    n = int(input())
-    귀여미 = s
-    for z in range(n):
+a = int(input()) # 테스트 케이스 개수
+for z in range(a): # 테스트 케이스 반복
+    w = 0 
+    s = int(input()) # 자동차 가격
+    w += s
+    n = int(input()) # 옵션 몇 개
+    for i in range(n): #옵션 n 만큼 반복
         q,p = map(int,input().split())
-        귀여미 += q * p
-    print(귀여미)
-        
-
+        w += q*p
+    print(w)
+    
