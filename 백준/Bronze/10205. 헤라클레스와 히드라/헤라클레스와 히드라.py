@@ -1,14 +1,12 @@
-N = int(input())
-for i in range(N):
-    A = int(input())
-    B = input()
-    for b in B:
-        if (b == "c"):
-            A += 1
-        else:
-            A -= 1
-        if A == 0:
-            break
-    print("Data Set " + str(i+1) + ":")
-    print(A)
-    print()
+K = int(input())
+for i in range(K):
+    h = int(input())
+    Z = input()
+    for D in range(len(Z)):
+        if Z[D] == "c":
+            h += 1
+        elif Z[D] == "b":
+            h -= 1
+    print("Data Set",str(i+1)+":")
+    print(h)
+    print(" ")
