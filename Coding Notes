@@ -183,3 +183,9 @@ main topic2 = x in y
 번역(1) -> d가 death안에 있습니까?
 예시(2) Hello in H x
 번역(2) -> h안에 hello가 있습니까?
+2025/4/4
+ A[: 2] 무슨 뜻일까?
+답: A에 만약 BABO JOON PLAY 가 있으면,
+리스트 A 인덱스가 0인 문자 BABO가 죽고, 나머지가 살아남는 시스템이다.
+LIST: M[A,B,C,D,E]
+M[:3]-> ABC , M[1:4] -> A,B,C
