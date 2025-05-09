@@ -189,3 +189,14 @@ main topic2 = x in y
 리스트 A 인덱스가 0인 문자 BABO가 죽고, 나머지가 살아남는 시스템이다.
 LIST: M[A,B,C,D,E]
 M[:3]-> ABC , M[1:4] -> A,B,C
+2025/5/9
+내가 몰랐던 개녕: [::-1] 노션 참고 바람. 다 적혀 있음.
+[::-1] 은 -1 말 그대로 뒤에 것 부터 출력한다는 이야기다.
+예를 하나 들어보겠다.
+input: Freddy Fazbear Pizza Place
+output: place pizza Fazbear Freddy
+중요한건 String이나 리스트에 쓸 수 있다.
+반대로 [::1] 로 하면 어떻게 될까?
+INPUT: place pizza Fazbear Freddy
+OUTPUT: Freddy Fazbear pizza place
+라는걸로 된다.
